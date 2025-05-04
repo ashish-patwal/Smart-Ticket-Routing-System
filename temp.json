@@ -1,0 +1,152 @@
+Status: 200 Full Body: {args={}, data={
+    "self": "https://ashish147.atlassian.net/rest/api/2/10050",
+    "id": 10050,
+    "key": "SCRUM-10",
+    "changelog": {
+      "startAt": 0,
+      "maxResults": 0,
+      "total": 0,
+      "histories": null
+    },
+    "fields": {
+      "statuscategorychangedate": "2025-05-04T12:49:58.861+0530",
+      "issuetype": {
+        "namedValue": "Story",
+        "self": "https://ashish147.atlassian.net/rest/api/2/issuetype/10003",
+        "id": 10003,
+        "description": "Stories track functionality or features expressed as user goals.",
+        "iconUrl": "https://ashish147.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+        "name": "Story",
+        "untranslatedName": null,
+        "subtask": false,
+        "fields": {},
+        "statuses": [],
+        "hierarchyLevel": 0
+      },
+      "components": [],
+      "timespent": null,
+      "timeoriginalestimate": null,
+      "project": {
+        "self": "https://ashish147.atlassian.net/rest/api/2/project/10000",
+        "id": 10000,
+        "key": "SCRUM",
+        "name": "Smart Ticket Routing System",
+        "description": null,
+        "avatarUrls": {
+          "48x48": "https://ashish147.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10400",
+          "24x24": "https://ashish147.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10400?size=small",
+          "16x16": "https://ashish147.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10400?size=xsmall",
+          "32x32": "https://ashish147.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10400?size=medium"
+        },
+        "issuetypes": null,
+        "projectCategory": null,
+        "email": null,
+        "lead": null,
+        "components": null,
+        "versions": null,
+        "projectTypeKey": "software",
+        "simplified": true
+      },
+      "description": "Super importatnt detailed explaination",
+      "fixVersions": [],
+      "statusCategory": {
+        "self": "https://ashish147.atlassian.net/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "New"
+      },
+      "aggregatetimespent": null,
+      "resolution": null,
+      "customfield_10035": null,
+      "timetracking": {
+        "originalEstimate": null,
+        "remainingEstimate": null,
+        "timeSpent": null,
+        "originalEstimateSeconds": 0,
+        "remainingEstimateSeconds": 0,
+        "timeSpentSeconds": 0
+      },
+      "security": null,
+      "attachment": [],
+      "aggregatetimeestimate": null,
+      "resolutiondate": null,
+      "workratio": -1,
+      "summary": "Ticket 10",
+      "watches": {
+        "self": "https://ashish147.atlassian.net/rest/api/2/issue/SCRUM-10/watchers",
+        "watchCount": 0,
+        "isWatching": false
+      },
+      "issuerestriction": {
+        "issuerestrictions": {},
+        "shouldDisplay": true
+      },
+      "lastViewed": null,
+      "creator": {
+        "self": "https://ashish147.atlassian.net/rest/api/2/user?accountId=712020%3A083114c6-8ffc-423b-a55f-a4ea984a7ebe",
+        "name": null,
+        "key": null,
+        "accountId": "712020:083114c6-8ffc-423b-a55f-a4ea984a7ebe",
+        "emailAddress": null,
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/4e64d2141fc6baa9358f93f8659d7afc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPZ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/4e64d2141fc6baa9358f93f8659d7afc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPZ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/4e64d2141fc6baa9358f93f8659d7afc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPZ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/4e64d2141fc6baa9358f93f8659d7afc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPZ-1.png"
+        },
+        "displayName": "Player Zero",
+        "active": true,
+        "timeZone": "Asia/Calcutta",
+        "groups": null,
+        "locale": null,
+        "accountType": "atlassian"
+      },
+      "subtasks": [],
+      "created": 1746343198557,
+      "customfield_10020": null,
+      "reporter": {
+        "self": "https://ashish147.atlassian.net/rest/api/2/user?accountId=712020%3A083114c6-8ffc-423b-a55f-a4ea984a7ebe",
+        "name": null,
+        "key": null,
+        "accountId": "712020:083114c6-8ffc-423b-a55f-a4ea984a7ebe",
+        "emailAddress": null,
+        "avatarUrls": {
+          "48x48": "https://secure.gravatar.com/avatar/4e64d2141fc6baa9358f93f8659d7afc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPZ-1.png",
+          "24x24": "https://secure.gravatar.com/avatar/4e64d2141fc6baa9358f93f8659d7afc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPZ-1.png",
+          "16x16": "https://secure.gravatar.com/avatar/4e64d2141fc6baa9358f93f8659d7afc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPZ-1.png",
+          "32x32": "https://secure.gravatar.com/avatar/4e64d2141fc6baa9358f93f8659d7afc?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPZ-1.png"
+        },
+        "displayName": "Player Zero",
+        "active": true,
+        "timeZone": "Asia/Calcutta",
+        "groups": null,
+        "locale": null,
+        "accountType": "atlassian"
+      },
+      "customfield_10021": null,
+      "aggregateprogress": {
+        "progress": 0,
+        "total": 0
+      },
+      "priority": {
+        "self": "https://ashish147.atlassian.net/rest/api/2/priority/3",
+        "id": 3,
+        "name": "Medium",
+        "iconUrl": "https://ashish147.atlassian.net/images/icons/priorities/medium.svg",
+        "namedValue": "Medium"
+      },
+      "customfield_10001": {
+        "id": "5fa6d9b4-fa72-4da7-81ac-9e88a0473b2e",
+        "name": "airflow",
+        "avatarUrl": "",
+        "isVisible": true,
+        "isVerified": false,
+        "title": "airflow",
+        "isShared": true
+      },
+      "labels": [
+        "support"
+      ],
+      "customfield_10016": 5.0,
+      "environment": null,"customfield_10...
