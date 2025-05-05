@@ -31,6 +31,8 @@ app.use(bodyParser.json());
 const determineTeam = (jiraTicket) => {
   const components = jiraTicket.fields.components || [];
   const labels = jiraTicket.fields.labels || [];
+  const description = jiraIssue.fields.description || '';
+  const summary = jiraIssue.fields.summary || '';
   
   // Simple routing logic - can be replaced with ML model later
   if (components.some(c => c.name.toLowerCase().includes('frontend'))) {
@@ -41,6 +43,8 @@ const determineTeam = (jiraTicket) => {
     return 'Security Team';
   } else if (labels.includes('devops')) {
     return 'DevOps Team';
+  } else if (description.toLowerCase().includes('database') || summary.toLowerCase().includes('database')) {
+    return 'Database Team';
   }
   
   // Default team if no matches
@@ -72,7 +76,7 @@ app.post('/api/jira-webhook', async (req, res) => {
       
       // Check if ticket already exists in Firebase by Jira ID
       const ticketsRef = db.collection('tickets');
-      const snapshot = await ticketsRef.where('jiraId', '==', ticket.jiraId).get();
+      const snapshot = await ticketsRef.where('jiraId', '==', issue.key).limit(1).get();
       
       if (snapshot.empty) {
         // Create new ticket
